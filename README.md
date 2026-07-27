@@ -105,3 +105,26 @@ For comprehensive theoretical analysis, full IP addressing tables, CLI command l
 1. Clone this repository or download the project archive:
    ```bash
    git clone [https://github.com/your-username/enterprise-network-design.git](https://github.com/your-username/enterprise-network-design.git)
+   ```
+2. Launch **Cisco Packet Tracer**.
+3. Go to **File > Open** and select the simulation file:
+   ```text
+   packet-tracer/enterprise-network-design.pkt
+   ```
+4. Allow the simulation clock to converge so link lights transition to green.
+
+### Verifying Network Functionality
+1. **Host IP Allocation**:
+   * Click any PC node > **Desktop** > **Command Prompt**.
+   * Run `ipconfig` to verify assigned IP parameters.
+2. **Ping Test**:
+   * Run `ping <Destination_IP>` or `ping <Domain_Name>` to verify routing across networks.
+3. **Web Browser Access**:
+   * Open **Desktop > Web Browser** on any host PC.
+   * Enter the domain name or IP address of the Web Server to view the rendered site.
+
+---
+
+## 📜 License
+
+This project is created for educational purposes under the **ITT300 Enterprise Network** curriculum. All rights reserved.
